@@ -10,6 +10,7 @@ public class numberOfDigit {
 			return 1;
 		}
 		int smallValue = nod(n / 10);
+		
 		int output = 1 + smallValue;
 		
 		
